@@ -1,0 +1,16 @@
+.element {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: solid 3px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    transition: 1s;
+    cursor: default;
+}
+
+
+

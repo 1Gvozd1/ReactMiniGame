@@ -1,0 +1,16 @@
+.victory {
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 50px;
+    transition: 3s;
+}
+.count {
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 102px;
+    font-size: 20px;
+    transition: 3s;
+}

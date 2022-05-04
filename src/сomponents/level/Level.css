@@ -1,0 +1,40 @@
+.change {
+    border: solid 3px white;
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.change {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    background-color: #5de6de;
+    background-image: linear-gradient(315deg,#1797d2  0%, #864fe1 74%);
+    border: none;
+    border-radius: 50%;
+    transition: 200ms;
+}
+
+.change:hover::before {
+    color: #fff;
+}
+
+
+@keyframes bounce {
+    0% {transform: translateX(-50%) translateY(-50%)}
+    25% {transform: translateX(-50%) translateY(-65%)}
+    50% {transform: translateX(-50%) translateY(-50%)}
+    75% {transform: translateX(-50%) translateY(-35%)}
+    100% {transform: translateX(-50%) translateY(-50%)}
+}
+
+.change:focus {
+    outline: none;
+}

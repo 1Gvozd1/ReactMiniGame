@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+.size{
+  position: absolute;
+  top:-30px;
+  left: 95%;
+  font-size: 30px;
+  color: white;
+}
